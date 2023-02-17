@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import MyComponent from "./MyComponent";
 
-class App extends Component {
+class MyComponent extends Component {
   constructor(props) {
     super(props);
   }
@@ -9,9 +8,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MyComponent title="React" />
+        <h1>{this.props.title}</h1>
       </div>
     );
   }
 }
-export default App;
+export default MyComponent;

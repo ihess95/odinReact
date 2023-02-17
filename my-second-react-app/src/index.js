@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import App from "./AppClock";
 import Clock from "./Clock";
 import reportWebVitals from "./reportWebVitals";
 
