@@ -1,17 +1,12 @@
-import React, { Component } from "react";
-import MyComponent from "./MyComponent";
+import React from "react";
+import ReactDOM from "react-dom";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
+class DemoComponent extends React.Component {
   render() {
     return (
       <div>
-        <MyComponent title="React" />
+        <h2>Hello {this.props.user}</h2>
       </div>
     );
   }
 }
-export default App;
